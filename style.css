@@ -1,0 +1,118 @@
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(207, 198, 187);
+    background-attachment: scroll;
+    height: 200%;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.container-navbar {
+    background-color: #181818;
+    width: 100%;
+    height: 70px;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.li-navbar {
+    border-radius: 20%;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight:900;
+    color: #fff;
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.lorem {
+    font-size: 20px;
+    color: beige;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -1250%);
+    text-align: center;
+  }
+
+.pic {
+    margin: 0px;
+    padding: 0%;
+  }
+
+.img {
+    overflow-x: auto;
+    border: none;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    opacity: 1.0;
+    cursor: grab;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+
+}
+
+.img::-webkit-scrollbar {
+    width: 0;
+}
+
+.img:active {
+    cursor: grabbing; /* tambahkan properti ini */
+}
+  
+.pic:active {
+    cursor: grabbing; /* tambahkan properti ini */
+}
+
+.judul {
+    font-weight: 900;
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    transform: translateX(50px);
+    color: rgb(37, 37, 37);
+    margin-bottom: -25px;
+}
+
+.judul2 {
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    transform: translateX(50px);
+    color: rgb(37, 37, 37);
+    margin-top: -60px;
+}
+
+.paragraf {
+    color: rgb(46, 46, 46);
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    transform: translate(50px,-35px);
+}
